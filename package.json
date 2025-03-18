@@ -1,0 +1,29 @@
+{
+  "name": "watch-class-generator",
+  "version": "0.1.0",
+  "description": "监听前端文件中的class并自动生成对应的样式文件",
+  "main": "src/index.js",
+  "bin": {
+    "watch-class": "./bin/watch-class.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "class",
+    "generator",
+    "watcher",
+    "style"
+  ],
+  "author": "xuzhixin",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "glob": "^10.3.10",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0"
+  }
+}
